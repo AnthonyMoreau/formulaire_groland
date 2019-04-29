@@ -1,0 +1,34 @@
+.container {
+
+    width: 80%;
+    margin: auto;
+
+}
+.logo{
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 400px;
+    margin: auto;
+}
+
+main p{
+    font-weight: 500px ;
+    width: 700px ;
+    font-size: 25px;
+    margin: auto;
+    color: rgb(102, 4, 4); 
+}
+
+label {
+    display: block;
+    width: 200px;
+    background-color: rgb(151, 151, 182)
+}
+

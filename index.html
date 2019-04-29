@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
     <title>Etat civil Grolandais</title>
 </head>
 
 <body>
 
-    <header>
+    <div class="container">
+            <header>
+
+        
+        <img class="logo" src="img/grola.jpeg" alt="Grolandais"> 
+    
 
         <h1>Etat civil Grolandais</h1>
-
+         
     </header>
 
     <main>
@@ -75,10 +81,19 @@
                     </fieldset>
                     <fieldset>
                         <legend>Motif de la demande :</legend>
-                        <textarea name="motif" id="motif" cols="30" rows="10" placeholder="Je suis abruti"></textarea>
+                        <textarea name="motif" id="motif" cols="200" rows="10" placeholder="Je suis abruti"></textarea>
                     </fieldset>
-                    <input type="checkbox" name="news_letter" id="news_letter" checked /><label for="news_letter">News letter</label><br /> 
+                    <input type="checkbox" name="newsletter" id="newsletter" checked /><label for="newsletter">Newsletter</label><br /> 
+                
+
+                    <input type="submit" value="annuler">
+
+                    <input type="submit" value="Envoyer ">
+
+                    
         </form>
     </main>
+
+    </div>
 </body>
 </html>
