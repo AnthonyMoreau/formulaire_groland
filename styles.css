@@ -4,31 +4,77 @@
     margin: auto;
 
 }
-.logo{
+
+header .president img {
+
+    padding: 0 50px 0 0;
+
+}
+
+.president {
+
+    height: 280px;
+    border: rgb(73, 73, 73) 2px solid;
+    background-image: url(img/president.jpg);
+    background-size: cover;
+
+}
+
+.logo {
+
     display: block;
     width: 15%;
     margin: auto;
 }
 
-h1{
-    color: black;
+h1 {
+
+
+    text-align: center;
+    color: rgb(29, 29, 29);
     font-weight: bold;
     text-decoration: underline;
-    width: 400px;
     margin: auto;
+    text-shadow: rgb(44, 44, 44) 1px 0 10px;
 }
 
-main p{
-    font-weight: 500px ;
-    width: 700px ;
+main p {
+
+    text-align: center;
+    font-weight: 500;
     font-size: 25px;
-    margin: auto;
-    color: rgb(102, 4, 4); 
+    border: rgb(117, 117, 117) 2px solid;
+    color: rgb(39, 39, 39); 
+}
+
+form {
+
+    display: block;
+
+
 }
 
 label {
-    display: block;
-    width: 200px;
-    background-color: rgb(151, 151, 182)
+
+    margin: 10px;
+
 }
+
+input {
+
+    margin: 10px;
+
+}
+
+fieldset {
+
+    margin: 0 0 20px 0;
+
+}
+
+.sexe {
+    float: left;
+
+}
+
 
